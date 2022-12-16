@@ -4,11 +4,53 @@ body {
     color: #fafafa;
 
     margin: 0;
-    padding-top: 50px;
+    padding: 0;
 }
 
+header {
+    background-color: #191919;
+    margin: 0;
+    padding: 0;
+}
+
+
+header h2 {
+    margin: 0;
+    padding: 10px;
+
+    display: inline-block;
+}
+
+header p {
+    font-size: 14px;
+
+    margin: 0;
+    padding: 10px;
+
+    display: inline;
+    float: right;
+}
+
+/* header h2 {
+    background-color: #1c1c1c;
+    margin: 0;
+    text-align: center;
+    vertical-align: middle;
+
+    display: inline;
+    line-height: 5px;
+    margin-top: 0px;
+    color: green;
+} */
+
+/* header img {
+    display: inline;
+    float: right;
+} */
+
 nav {
-    position: fixed;
+    position: sticky;
+    overflow: hidden;
 
     top: 0;
     width: 100%;
@@ -18,7 +60,7 @@ nav {
 }
 
 nav img {
-    display: inline-block;
+    display: inline;
 }
 
 nav ul {
@@ -29,7 +71,7 @@ nav ul {
 }
 
 nav li {
-    display: inline-block;
+    display: inline;
     padding: 16px 12px;
 }
 
