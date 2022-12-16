@@ -4,11 +4,13 @@ body {
     color: #fafafa;
 
     margin: 0;
-    padding: 0;
+    padding-top: 50px;
 }
 
 nav {
     position: fixed;
+
+    top: 0;
     width: 100%;
 
     background-color: #1c1c1c;
@@ -41,4 +43,12 @@ nav a {
     color: #fafafa;
 
     font-weight: bold;
+}
+
+section {
+    background-color: #282828;
+    padding: 5px 20px;
+    margin: 10% 20%;
+    border-radius: 10px;
+    /* font-size: 30px; */
 }
